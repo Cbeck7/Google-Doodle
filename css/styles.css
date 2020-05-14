@@ -5,19 +5,19 @@
   * Outline Elements
 */
 
-* {
-    outline: 1px dotted black;
-}
+/* * {
+    outline: 2px dashed orangered;
+} */
 
 /* Doodle Stage */
 #stage {
-  background: #ccc;
+  background: brown;
   height: 300px;
   width: 600px;
 }
 
 #heart1 {
-  fill: red;
+    fill:blue;
 }
 
 #heart2 {
