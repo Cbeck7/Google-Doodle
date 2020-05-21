@@ -1,9 +1,15 @@
 console.log('OK');
 
-
-gsap.from(
-  '#heart1', {
-    opacity: 0,
+gsap.to(
+  '#hat', {
+    opacity: 1,
     duration: 5, 
-    y: -100
+    x: 150,
+    y: 15
   });
+
+  gsap.set(
+    '#head', {
+      x: 150,
+      y: 215
+    });

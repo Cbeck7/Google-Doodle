@@ -11,15 +11,17 @@
 
 /* Doodle Stage */
 #stage {
-  background: brown;
-  height: 300px;
-  width: 600px;
+  background: red;
+  height: 400px;
+  width: 700px;
 }
 
-#heart1 {
-    fill:blue;
+#head {
+    fill:white;
+    z-index: 0;
 }
 
-#heart2 {
-  fill: green;
+#hat {
+  position: relative;
+ z-index: 1;
 }
